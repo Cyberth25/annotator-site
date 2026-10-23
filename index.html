@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annotator: mark up any web page and capture it</title>
+<meta name="description" content="Annotator is a Chrome extension to draw arrows, shapes, text and numbered steps on any web page, then copy or save the screenshot. No account, nothing uploaded.">
+<style>
+  :root { --fg: #1b2330; --muted: #5b6676; --line: #d9dee5; --accent: #2c5fd6; --bg: #f4f6f8; --red: #E24B4A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif; color: var(--fg); background: #fff; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 56px 0 24px; }
+  h1 { font-size: 42px; line-height: 1.15; margin: 0 0 12px; }
+  h2 { font-size: 26px; margin: 48px 0 12px; }
+  h3 { font-size: 19px; margin: 0 0 8px; }
+  .lead { font-size: 20px; color: var(--muted); max-width: 720px; margin: 0 0 24px; }
+  .cta { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: 600; }
+  .muted { color: var(--muted); font-size: 15px; }
+  .shot { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; margin: 24px 0 8px; display: block; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .card { border: 1px solid var(--line); border-radius: 12px; padding: 20px; background: #fff; }
+  .pill { display: inline-block; font-size: 13px; padding: 2px 10px; border-radius: 999px; background: var(--bg); color: var(--muted); margin-bottom: 8px; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .price { font-size: 34px; font-weight: 700; margin: 4px 0; }
+  footer { margin: 56px 0 40px; border-top: 1px solid var(--line); padding-top: 20px; color: var(--muted); font-size: 15px; }
+  footer a { color: var(--accent); }
+  .lang { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Annotator</h1>
+  <p class="lead">Draw arrows, shapes, text and numbered steps on any web page, then copy or save the screenshot. Everything stays on your computer.</p>
+  <a class="cta" href="#pricing">See pricing</a>
+  <p class="muted">Works in Google Chrome. No account needed.</p>
+  <img class="shot" src="screenshot-1.png" alt="Annotator toolbar on a web page with an arrow, a circle and a highlighted row">
+</header>
+
+<h2>What it does</h2>
+<div class="grid">
+  <div class="card"><h3>Annotate</h3><p>Arrows, circles, boxes, highlights, text and freehand pen, with move, recolor and undo.</p></div>
+  <div class="card"><h3>Capture</h3><p>Copy the screenshot to the clipboard, or download it as a PNG in one step.</p></div>
+  <div class="card"><h3>Private</h3><p>Screenshots are created and edited on your computer. They are never uploaded. No account.</p></div>
+</div>
+
+<h2>Free and Pro</h2>
+<div class="grid">
+  <div class="card">
+    <span class="pill">Free</span>
+    <h3>Everything you need to mark up a page</h3>
+    <ul>
+      <li>Arrows, circles, boxes, highlights, text, pen</li>
+      <li>Move, recolor, delete, undo</li>
+      <li>Copy or download the screenshot</li>
+      <li>Six colors</li>
+    </ul>
+  </div>
+  <div class="card">
+    <span class="pill">Pro</span>
+    <h3>For tutorials, bug reports and sensitive screens</h3>
+    <ul>
+      <li>Blur sensitive information before you share</li>
+      <li>Numbered or lettered steps (1, 2, 3 or A, B, C)</li>
+      <li>Serif and monospace fonts for text notes</li>
+      <li>Six extra colors</li>
+      <li>Save screenshots to a fixed folder</li>
+    </ul>
+  </div>
+</div>
+<img class="shot" src="screenshot-5.png" alt="Pro options: numbered steps, fonts and colors in the toolbar">
+
+<h2 id="pricing">Pricing</h2>
+<div class="card">
+  <p class="muted">Annotator is free to install from the Chrome Web Store.</p>
+  <h3>Annotator Pro</h3>
+  <div class="price">15 USD <span class="muted" style="font-size:17px;font-weight:400">one-time payment</span></div>
+  <ul>
+    <li>No subscription. You pay once.</li>
+    <li>You receive a license key by email. Paste it in the extension to unlock Pro.</li>
+    <li>Activation needs an internet connection once. After that, Pro works offline on that computer.</li>
+    <li>14-day refund policy.</li>
+  </ul>
+  <p class="muted">Purchase options will appear here when Pro is available for checkout.</p>
+</div>
+
+<h2>How it works</h2>
+<ol>
+  <li>Install Annotator from the Chrome Web Store.</li>
+  <li>Open any web page and press <strong>Ctrl+M</strong>, or click the Annotator icon.</li>
+  <li>Draw on the page, then click <strong>Copy</strong> or <strong>Download</strong>.</li>
+</ol>
+
+<h2 class="lang">Español</h2>
+<p>Annotator te permite dibujar flechas, figuras, texto y pasos numerados sobre cualquier página web, y copiar o guardar la captura. Todo se queda en tu computadora. No necesitas cuenta.</p>
+<ul>
+  <li><strong>Gratis:</strong> flechas, círculos, cuadros, resaltado, texto, lápiz, copiar y descargar capturas.</li>
+  <li><strong>Pro:</strong> pago único de 15 USD, sin suscripción. Difuminar datos, pasos con letras, tipos de letra adicionales, colores extra y carpeta fija para guardar capturas.</li>
+</ul>
+
+<footer>
+  <p>Annotator is published by IPEXPERTS. Contact: <a href="mailto:support@ipexperts.tech">support@ipexperts.tech</a> · <a href="https://cyberth25.github.io/annotator-privacy/">Privacy policy</a></p>
+  <p>Chrome is a trademark of Google LLC. Annotator is not affiliated with Google or Lemon Squeezy.</p>
+</footer>
+
+</div>
+</body>
+</html>
